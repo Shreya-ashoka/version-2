@@ -3,10 +3,28 @@
 int a=23,b=67;
 int sum=a+b;
 printf("sum is",sum);
+return 0;
+}
 
+#include<stdio.h>
 int main()
-
+{
     printf("Hello World");
     return 0;
 }
 
+#include<stdio.h>
+int main()
+{
+int temp;
+int a=4;
+int b=7;
+printf("before swapping");
+printf("a=%d b=%d",&a,&b);
+temp=a;
+a=b;
+b=temp;
+printf("after swapping");
+printf("a=%d b=%d",&a,&b);
+return 0;
+}
