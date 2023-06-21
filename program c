@@ -3,4 +3,10 @@
 int a=23,b=67;
 int sum=a+b;
 printf("sum is",sum);
+
+int main()
+
+    printf("Hello World");
+    return 0;
 }
+
