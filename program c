@@ -1,0 +1,6 @@
+#include<stdio.h>
+{
+int a=23,b=67;
+int sum=a+b;
+printf("sum is",sum);
+}
